@@ -10,6 +10,10 @@ module.exports = {
         ecmaVersion: 12,
     },
     rules: {
+        'no-console': 'error',
+        'no-plusplus': 'error',
         eqeqeq: 'error',
+        'prefer-const': 'error',
+        'no-use-before-define': 'error',
     },
 };
